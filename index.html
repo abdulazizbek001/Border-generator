@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app/css/style.css">
+    <link rel="icon" href="./app/img/icon-site.png">
+    <title>Murabba: Border generator</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="title">Border-Generator</h1>
+        <div class="wrapper">
+            <div class="box"></div>
+            <div class="inputs">
+                <div class="wrap">
+                    <div>
+                        <input class="input-range" type="range" value="0" min="0" max="100">
+                        <input class="input-color" type="color">
+                    </div>
+                    <span class="rezult"></span>
+                    <button onclick="elBtn()" class="btn" >copy</button>
+                </div>
+                <div class="btns">
+                    <button onclick="solid()" class="btn-solid">solid</button>
+                    <button onclick="ridge()" class="btn-ridge">ridge</button>
+                    <button onclick="outset()" class="btn-outset">outset</button>
+                    <button onclick="double()" class="btn-double">double</button>
+                    <button onclick="dashed()" class="btn-dashed">dashed</button>
+                    <button onclick="groove()" class="btn-groove">groove</button>
+                    <button onclick="dotted()" class="btn-dotted">dotted</button>
+                </div>
+            </div>
+
+            <div class="copy-box">
+                <p>Copied to clipboard 👍</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app/js/app.js"></script>
+
+</body>
+
+</html>

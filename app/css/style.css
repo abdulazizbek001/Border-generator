@@ -1,0 +1,206 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Courier New', Courier, monospace;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: rgb(207, 207, 207);
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+
+img {
+   display: inline-block;
+}
+
+span {
+   display: inline-block;
+}
+
+button {
+   cursor: pointer;
+}
+
+.container {
+   width: 1150px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.title {
+   color: cadetblue;
+   font-size: 25px;
+   text-align: start;
+   margin-bottom: 30px;
+}
+
+.wrapper {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+
+.box {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   background-color: white;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.inputs {
+   position: relative;
+   left: -300px;
+   width: 800px;
+   background-color: bisque;
+   padding: 10px 20px;
+}
+
+.wrap {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.btn {
+   width: 100px;
+   padding: 5px 20px;
+   background-color: chartreuse;
+   border: none;
+   text-transform: uppercase;
+}
+
+.btns {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+}
+
+.input-range {
+   width: 160px;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.input-color {
+   width: 160px;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.btn-solid {
+   padding: 10px 15px;
+   color: black;
+   border: 10px solid red;
+   background-color: white;
+}
+
+.btn-solid:active {
+   background-color: green;
+   color: white;
+}
+
+.btn-ridge {
+   padding: 10px 15px;
+   color: black;
+   border: 10px ridge red;
+   background-color: white;
+}
+
+.btn-ridge:active {
+   background-color: green;
+   color: white;
+}
+
+.btn-outset {
+   padding: 10px 15px;
+   color: black;
+   border: 10px outset red;
+   background-color: white;
+}
+
+.btn-outset:active {
+   background-color: green;
+   color: white;
+}
+
+.btn-double {
+   padding: 10px 15px;
+   color: black;
+   border: 10px double red;
+   background-color: white;
+}
+
+.btn-double:active {
+   background-color: green;
+   color: white;
+}
+
+.btn-dashed {
+   padding: 10px 15px;
+   color: black;
+   border: 10px dashed red;
+   background-color: white;
+}
+
+.btn-dashed:active {
+   background-color: green;
+   color: white;
+}
+
+.btn-groove {
+   padding: 10px 15px;
+   color: black;
+   border: 10px groove red;
+   background-color: white;
+}
+
+.btn-groove:active {
+   background-color: green;
+   color: white;
+}
+
+.btn-dotted {
+   padding: 10px 15px;
+   color: black;
+   border: 10px dotted red;
+   background-color: white;
+}
+
+.btn-dotted:active {
+   background-color: green;
+   color: white;
+}
+
+.copy-box {
+   position: absolute;
+   width: 300px;
+   padding: 20px;
+   background-color: transparent;
+   top: -55px;
+   left: -29px;
+   display: none;
+}
